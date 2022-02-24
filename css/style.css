@@ -1,6 +1,6 @@
 
 .text-contain{
-	text-align: justify;
+	text-align:unset;
 }
 .word{
 	padding: 0.1rem;
