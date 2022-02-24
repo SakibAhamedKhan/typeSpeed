@@ -21,18 +21,31 @@
 	</header>
 
 	<main>
-		<section class="container">
-			<h2 id="congratulation" class="text-success text-center"></h2>
+		<section class="container my-5">
+			<h2 id="test-finished-message" class="text-center text-white bg-success p-3 rounded"></h2>
 		</section>
 		<section>
 			<div class="container ">
 				<div class="bg-white p-3 rounded border border-info">
-					<p id="text-contain" class="m-0 p-4 fs-3 text-contain">
+					<p id="text-contain" class="m-0 p-4 fs-2 text-contain">
 					</p>
 					<div class="d-flex justify-content-between px-5 py-3">
-						<h5>Time Left: <span id="countDown"></span></h5>
+						<h5>Time Left: <span id="countDown"></span>s</h5>
 						<button class="btn btn-success" onclick="tryAgain()">Try Again</button>
 					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="result-section" class="my-5">
+			<div class="container ">
+				<div class="bg-white p-3 rounded border border-info">
+					<div class="d-flex justify-content-between px-5 py-3">
+						<h5>Mistake: <span id="mistake"></span></h5>
+						<h5>WPM: <span id="wpm"></span></h5>
+						<h5>Accuracy: <span id="accuracy"></span>%</h5>
+					</div>
+					
 				</div>
 			</div>
 		</section>

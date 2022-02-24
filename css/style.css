@@ -1,3 +1,6 @@
+#test-finished-message{
+	display: none;
+}
 
 .text-contain{
 	text-align:unset;
@@ -28,3 +31,7 @@ span{
 /* .active {
 	border-bottom:  2px solid red;
 } */
+
+#result-section {
+	display: none;
+}
